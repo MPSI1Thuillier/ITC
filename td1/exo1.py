@@ -25,7 +25,9 @@ def plot(f):
 
 plot(lambda x : exp(-x))
 plot(lambda x : cos(x) / x)
-plot(lambda x : log(1 + x ** 2) / 1 + x ** 2)
+plot(lambda x : log(1 + x ** 2) / (1 + x ** 2))
 
 plt.grid()
 plt.show()
+
+# pi/S(f, 10N) converge vers 4
